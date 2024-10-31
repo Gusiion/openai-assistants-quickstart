@@ -1,5 +1,5 @@
-export let assistantId = ""; // set your assistant ID here
+export let assistantId = "asst_I8FBvZljqpql31sj1mKoTQ3e"; // set your assistant ID here
 
-if (assistantId === "asst_m1cvSarMerKIyKM6ijLxn7Qp") {
+if (assistantId === "") {
   assistantId = process.env.OPENAI_ASSISTANT_ID;
 }
